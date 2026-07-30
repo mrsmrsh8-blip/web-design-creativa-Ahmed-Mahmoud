@@ -1,0 +1,34 @@
+
+
+
+.p1 {
+    background-color: rgb(119, 101, 197);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.p2 {
+    background-color: rgb(97, 179, 204);
+    padding: 10px;
+    margin: ;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.p3 {
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+}
+    margin: 10px;
+}
