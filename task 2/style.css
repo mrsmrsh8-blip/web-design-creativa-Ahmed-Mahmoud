@@ -1,0 +1,190 @@
+CSS (style.css)
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:100vh;
+
+    background:linear-gradient(135deg,#b97aff,#6c63ff);
+}
+
+.container{
+
+    width:900px;
+    max-width:95%;
+
+    display:flex;
+
+    background:#fff;
+
+    border-radius:5px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+}
+
+.left{
+
+    width:50%;
+
+    background:#12b7d9;
+
+    color:#fff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:60px;
+}
+
+.content{
+
+    text-align:center;
+}
+
+.content h2{
+
+    font-size:42px;
+
+    margin-bottom:25px;
+}
+
+.content p{
+
+    line-height:1.8;
+
+    font-size:18px;
+
+    margin-bottom:25px;
+}
+
+.right{
+
+    width:50%;
+
+    padding:50px;
+}
+
+.right h2{
+
+    font-size:42px;
+
+    margin-bottom:25px;
+
+    color:#111;
+}
+
+form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+}
+
+input,
+textarea{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    background:#f1f1f1;
+
+    font-size:15px;
+
+    outline:none;
+}
+
+textarea{
+
+    height:140px;
+
+    resize:none;
+}
+
+button{
+
+    width:170px;
+
+    margin:auto;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:#12b7d9;
+
+    color:#fff;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    letter-spacing:2px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+
+    background:#089fbe;
+}
+Responsive Design
+
+أضف الكود التالي في نهاية ملف CSS ليصبح مناسبًا للموبايل:
+
+@media(max-width:768px){
+
+.container{
+
+    flex-direction:column;
+}
+
+.left,
+.right{
+
+    width:100%;
+}
+
+.left{
+
+    padding:40px 25px;
+}
+
+.right{
+
+    padding:30px;
+}
+
+.content h2,
+.right h2{
+
+    font-size:34px;
+}
+
+button{
+
+    width:100%;
+}
+
+}
